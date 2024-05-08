@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/otpenter.css">
+</head>
+<body>
+        <div id="a1">
+                <div>
+                    <h2>Enter otp here</h2>
+                </div>
+                <div>
+                    <img src="../media/3d-render-secure-login-password-illustration-removebg-preview.png" width="160px" alt="">
+                </div>
+                <div>
+                    <form action="" method="post">
+                        <div>
+                            <input type="number" maxlength="1" autofocus id="otp1" oninput="moveToNextInput(event, 'otp2')">
+                            <input type="number" maxlength="1" autofocus id="otp2" oninput="moveToNextInput(event, 'otp3')">
+                            <input type="number" maxlength="1" autofocus id="otp3" oninput="moveToNextInput(event, 'otp4')">
+                            <input type="number" maxlength="1" autofocus id="otp4" >
+                        </div><br>
+                        <button type="submit" id="btn">Send</button><br><br>
+                        <button type="submit" id="resendbtn">ResendOtp</button>
+                    </form>
+                </div>
+        </div>
+        <div id="a6">
+            <img src="../media/message-removebg-preview.png" id="hello" height="280px" alt="">
+        </div>
+
+        <script src="../JS/otpenter.js"></script>
+</body>
+</html>

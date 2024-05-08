@@ -1,0 +1,102 @@
+*{
+    
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    background-image: url("../media/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#a1{
+    background-color: rgb(211, 180, 192);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 40%;
+    margin: auto;
+    margin-top: 5%;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    border-radius: 12px;
+}
+#otp1{
+    width: 50px;
+    height: 60px;
+    border-radius: 25px;
+}
+#otp2{
+    width: 50px;
+    height: 60px;
+    border-radius: 25px;
+}
+#otp3{
+    width: 50px;
+    height: 60px;
+    border-radius: 25px;
+}
+#otp4{
+    width: 50px;
+    height: 60px;
+    border-radius: 25px;
+}
+#btn{
+    margin-left: 60px;
+    border-radius: 12px;
+    padding: 20px 30px;
+    background-color: #DEF4FC;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+#resendbtn{
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    height: 25px;
+    margin-left: 60px;
+    width: 100px;
+    font-weight: bold;
+}
+#btn:hover{
+    background-color: rgb(41, 178, 236);
+}
+#hello{
+    
+    animation-name: rotating_hello;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes rotating_hello{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+#a6{
+    width: 25%;
+    margin-top: -520px;
+    margin-left: 23px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    /* Optional: Add some padding to make room for the entered numbers */
+    padding: 8px;
+    /* Optional: Add a border to visually separate the input fields */
+    border: 1px solid #ccc;
+}
+#resendbtn:hover{
+    background-color: rgb(215, 107, 53);
+}

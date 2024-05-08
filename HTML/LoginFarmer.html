@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/LoginFarmer.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Login Farmer</h2>
+        <form action="/login" method="post">
+          <label for="email">Email or Username:</label>
+          <input type="text" id="email" name="email" required>
+          <span id="emailError" class="message"></span><br><br>
+    
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="pwd" required>
+          <span id="pwdError" class="message"></span><br><br>
+    
+          <input type="submit" value="Login" id="log">
+        </form>
+        <br>
+        <a href="" id="a3">Forgot Password ?</a>
+        <p id="a5">Don't have an account ? &nbsp;&nbsp;<a href="" id="a6">Register Here</a></p>
+        
+      </div>
+
+      <script src="../JS/LoginFarmer.js"></script>
+</body>
+</html>

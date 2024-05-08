@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../media/farmers-collecting-harvest-harvest-time.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  input[type="submit"] {
+    background-color: #4c63af;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  .message {
+    color: red;
+    font-weight: bold;
+  }
+  #a3{
+    text-decoration: none;
+  }
+  #a3:hover{
+    color: #b84157;
+  }
+  #a5 a{
+  text-decoration: none;
+  margin-left: 10px;
+  }
+  #a6:hover{
+    color: #b84157;
+  }

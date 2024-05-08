@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image: url("../media/26038.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#a1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#a2{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 57px;
+    margin-top: 50px;
+    width: 170px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+#a2:hover{
+    background-color: rgb(72, 132, 222);
+}

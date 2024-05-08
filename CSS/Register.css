@@ -1,0 +1,74 @@
+body {
+     font-family: Arial, sans-serif;
+    background-image: url("../media/green-tea-bud-leaves-green-tea-plantations-morning.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  .container {
+    max-width: 300px;
+    margin: 16px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"],
+  select {
+    width: 85%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  input[type="submit"] {
+    background-color: #3f7ecb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #b44e62;
+  }
+  #age{
+    width: 84%;
+    height: 29px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  #phone{
+    width: 84%;
+    height: 29px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  #address{
+    width: 84%;
+    height: 28px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  .message {
+    color: red;
+    font-weight: bold;
+  }
+  #a2{
+    text-decoration: none;
+  }
+  #a2:hover{
+    color: #b84157;
+  }

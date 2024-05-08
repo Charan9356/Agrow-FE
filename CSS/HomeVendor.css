@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+}
+.c3{
+    list-style: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+#c2{
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
